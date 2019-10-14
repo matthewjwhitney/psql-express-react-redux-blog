@@ -1,0 +1,39 @@
+.FlexRow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.FlexColumn {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.FlexRowMain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 56px;
+  margin-left: 100px;
+}
+
+
+.FlexProfileDrawer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: -90px;
+  margin-right: 25px;
+}
+
+.FlexColumnProfile > h1 {
+  text-align: center;
+}
+
+.FlexProfileDrawerRow {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
